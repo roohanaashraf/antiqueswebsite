@@ -1,0 +1,138 @@
+.h1 {
+    font-size: 25px !important;
+}
+
+h6, label {
+    font-weight: bold !important;
+}
+
+.brown {
+    color: rgb(206, 164, 101) !important;
+}
+
+.midbrown {
+    color: rgb(185, 67, 67);
+}
+
+.mx-5 {
+    margin-left: 38% !important;
+    margin-right: 38% !important;
+}
+
+.lightbrown {
+    color: rgba(214, 212, 112, 0.829) !important;
+}
+
+.footer {
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+}
+
+.footericons {
+    margin: 0.5% 1.3%;
+}
+
+.line {
+    color: rgb(168, 164, 164);
+    font-weight: bold;
+}
+
+.last {
+    background-color: burlywood;
+}
+
+.backtotop {
+    position: relative;
+    top: -10%;
+    float: right;
+}
+
+.l {
+    padding-right: 2.5% !important;
+    color: lightblue;
+}
+
+.l:hover {
+    color: burlywood;
+}
+
+.active1 {
+    color: rgb(221, 199, 98) !important;
+    font-weight: bold !important;
+}
+
+.ml-5 {
+    margin-left: 43% !important;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.card {
+    margin-top: 2% !important;
+    margin-bottom: 3% !important;
+    width: 390px !important;
+}
+
+.container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+}
+
+hr {
+    background-color: rgb(34, 32, 32);
+    margin: 1% 12%;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+.centered {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 16px!important;
+    color: white !important;
+}

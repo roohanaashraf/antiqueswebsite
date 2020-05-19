@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="category.css">
+    <title>Jewellery</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!--Brand logo-->
+        <a href="#" class="navbar-brand h1 brown font-weight-bold" href="#">Antiques <label
+                class="midbrown">Gallery</label></a>
+        <!--toggler buttton-->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#space">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--collapse navbar-->
+        <div id="space" class="collapse navbar-collapse"></div>
+        <!--navbar-->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a href="index.html" class="nav-link lightbrown"> Home </a> </li>
+            <li class="nav-item"> <a href="about.html" class="nav-link lightbrown "> About us </a> </li>
+            <div class="dropdown">
+                <button class="btn btn-dark text-center active1  dropdown-toggle text-warning" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Category
+                </button>
+                <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item text-center bg-dark  text-warning" href="Mirrors.html">Mirrors</a>
+                    <a class="dropdown-item  text-center bg-dark active1 text-warning" href="#">Jewellery</a>
+                    <a class="dropdown-item  text-center bg-dark text-warning" href="furniture.html">Furniture</a>
+                </div>
+            </div>
+            <li class="nav-item"> <a href="contact.html" class="nav-link lightbrown"> Contacts </a> </li>
+        </ul>
+    </nav>
+    <h2 class="text-center pt-5" style="font-family:cursive; color:rgb(122, 26, 26);  font-size:69px;">Antique
+        Jewellery</h2>
+    <br />
+    <div class="container">
+        <div class="card">
+            <img src="j1.jpg" style="height: 300px; width:390px; cursor:zoom-in;" class="card-img-top"
+                onclick="document.getElementById('modal01').style.display='block'" alt="jewellery">
+            <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img src="j1.jpg" style="width:100%; height:700px;">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center"> Edwardian 9ct Garnet Bracelet</h5>
+                <p class="card-text centered">£925
+                    <br>
+                    $1,129 €1,036
+                </p>
+                <a href="#" class="btn btn-primary  mx-5 px-2">Buy Now</a>
+                <br />
+                <br />
+                <button class="collapsible centered bg-primary btn">More Details</button>
+                <div class="content">
+                    <br />
+                    <h6>Description</h6>
+                    <p>This stylish Edwardian bracelet is mounted in 9ct gold and features symmetrical navette shape,
+                        open work links with Fleur de Lys terminations and centre oval cut Almandine Garnet 6.6 x 4.65
+                        mm collets.
+                    </p>
+                    <h6>Measurements</h6>
+                    <p>
+                        Width : 10.3 mm <br>
+                        Length : 20 cm <br>
+                    </p>
+                    <h6>Location</h6>
+                    <p>United Kingdom</p>
+                    <br />
+                    <label>Date of Manufacture : </label><span>United Kingdom(1901-1910)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="j2.jpg" style="height: 300px; width:390px; cursor:zoom-in;" class="card-img-top"
+                onclick="document.getElementById('modal02').style.display='block'" alt="jewellery">
+            <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img src="j2.jpg" style="width:100%; height:800px;">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Art Nouveau 15ct Amethyst Brooch</h5>
+                <p class="card-text centered">£425 <br>
+                    $519 - €476 <br>
+                </p>
+                <a href="#" class="btn btn-primary mx-5 px-2">Buy Now</a>
+                <br />
+                <br />
+                <button class="collapsible centered bg-primary btn">More Details</button>
+                <div class="content">
+                    <br />
+                    <h6>Description</h6>
+                    <p>This antique Edwardian Art Nouveau brooch has delightful, symmetrical scrolling open-work lines
+                        and is centred with a rich deep colour 7 mm round cut Amethyst collet, and suspends a further
+                        5.5 mm Amethyst collet from the base.
+                    </p>
+                    <h6>Measurements</h6>
+                    <p>
+                        Height : 19 mm <br />
+                        Length : 98.63 mm <br />
+                    </p>
+                    <h6>Location</h6>
+                    <p>United Kingdom</p>
+                    <br />
+                    <label>Date of Manufacture : </label><span>Art Nouveau(1890-1910)</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="j3.jpg" style="height: 300px; width:390px; cursor:zoom-in;" class="card-img-top"
+                onclick="document.getElementById('modal03').style.display='block'" alt="jewellery">
+            <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img src="j3.jpg" style="width:100%; height:700px;">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Victorian Scottish Cairngorm Agate Brooch c.1860</h5>
+                <p class="card-text centered">£695
+                    <br>
+                    $848 - €778 <br>
+                </p>
+                <a href="#" class="btn btn-primary mx-5 px-2">Buy Now</a>
+                <br />
+                <br />
+                <button class="collapsible centered bg-primary btn">More Details</button>
+                <div class="content">
+                    <br />
+                    <h6>Description</h6>
+                    <p>An exquisite Antique Scottish brooch modelled in solid Sterling Silver and set with eight pieces
+                        of plaid Scottish Agate around the outer circumference. Each is unique and boasts various earthy
+                        colours and patterned layers which are naturally formed, earning it the appropriate nickname
+                        ‘The Earth Rainbow’. <br>
+                        <br>
+                        WEIGHT: 34.64 grams
+                    </p>
+                    <h6>Measurements</h6>
+                    <p>
+                        Height : 49 mm <br>
+                        Width : 49 mm <br>
+                        Depth : 17 mm <br>
+                    </p>
+                    <h6>Location</h6>
+                    <p>Cumbria, United Kingdom</p>
+                    <br />
+                    <label>Date of Manufacture : </label><span>c.1860</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="j4.jpg" style="height: 300px; width:390px; cursor:zoom-in;" class="card-img-top"
+                onclick="document.getElementById('modal04').style.display='block'" alt="jewellery">
+            <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img src="j4.jpg" style="width:100%; height:700px;">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Platinum Diamond Solitaire Engagement Ring</h5>
+                <p class="card-text centered">£595
+                    <br />
+                    $726 - €666 <br>
+                </p>
+                <a href="#" class="btn btn-primary mx-5 px-2">Buy Now</a>
+                <br />
+                <br />
+                <button class="collapsible centered bg-primary btn">More Details</button>
+                <div class="content">
+                    <br />
+                    <h6>Description</h6>
+                    <p>
+                        A delightful brilliant cut diamond single stone ring mounted in platinum - a perfect engagement
+                        ring! <br>
+                        <br>
+                        The ring features a high quality diamond of approximately 0.35cts ( a third of a carat), judged
+                        as V.S.1 clarity and H colour, securely set in an eight claw setting within a 5.36 mm head upon
+                        a 2.32 mm wide shank.
+                    </p>
+                    <h6>Measurements</h6>
+                    <p>
+                        Weight : 2.9 g
+                    </p>
+                    <h6>Location</h6>
+                    <p>United Kingdom</p>
+                    <br />
+                    <label>Date of Manufacture : </label><span>Late 20th Century</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="j5.jpg" style="height: 300px; width:390px; cursor:zoom-in;" class="card-img-top"
+                onclick="document.getElementById('modal04').style.display='block'" alt="jewellery">
+            <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img src="j5.jpg" style="width:100%; height:700px;">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Ruby & Diamond Half Eternity Ring</h5>
+                <p class="card-text centered">£1,295 <br>
+                    $1,581 - €1,450
+                    <br />
+                </p>
+                <a href="#" class="btn btn-primary mx-5 px-2">Buy Now</a>
+                <br />
+                <br />
+                <button class="collapsible centered bg-primary btn">More Details</button>
+                <div class="content">
+                    <br />
+                    <h6>Description</h6>
+                    <p>
+                        This fine quality carved head 18ct gold Ruby and Diamond ring evokes the style of the late
+                        Victorian period in which scrolling shoulder and under-bezel motifs were extremely popular.
+                    </p>
+                    <h6>Measurements</h6>
+                    <p>
+                        Weight : 5.6 g
+                    </p>
+                    <h6>Location</h6>
+                    <p>United Kingdom</p>
+                    <br />
+                    <label>Date of Manufacture : </label><span> Late 20th Century</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="j6.jpg" style="height: 300px; width:390px; cursor:zoom-in;" class="card-img-top"
+                onclick="document.getElementById('modal04').style.display='block'" alt="jewellery">
+            <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                    <img src="j6.jpg" style="width:100%; height:700px;">
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">Vintage Platinum Diamond & Zirconia Ring</h5>
+                <p class="card-text centered">£749 <br>
+                    $914 - €839 <br />
+                </p>
+                <a href="#"  class="btn btn-primary mx-5 px-2" >Buy Now</a>
+                <br />
+                <br />
+                <button class="collapsible centered bg-primary btn">More Details</button>
+                <div class="content">
+                    <br />
+                    <h6>Description</h6>
+                    <p>
+                        This stunning ring is the epitome of cheeky opulence, featuring a 10mm brilliant cut Cubic
+                        Zirconia (approximately 4.00 cts equivalent diamond weight) flanked by two genuine baguette
+                        shoulder diamonds in a platinum mount.
+                    </p>
+                    <h6>Measurements</h6>
+                    <p>
+                        Weight : 5.59 g
+                    </p>
+                    <h6>Location</h6>
+                    <p>United Kingdom</p>
+                    <br />
+                    <label>Date of Manufacture : </label><span>c.1960</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Container ends-->
+    <div class="footer pt-3">
+        <div class="links">
+            <br />
+            <hr>
+            <a href="#" class="l">Terms of Use</a>
+            <a href="#" class="l">Privacy Policy</a>
+            <a href="#" class="l">Cookie Policy</a>
+            <a href="#" class="l">Help</a>
+            <br />
+            <br />
+            <a href="#" class="l">Email AntiquesGallery</a>
+            <a href="#" class="l">Cookie Policy</a>
+            <a href="#" class="l">FAQ Knowledge Base</a>
+            <a href="#" class="l">About AntiquesGallery,Inc.</a>
+            <hr>
+            <div class="media">
+                <img class="footericons ml-5" width="25px" height="25px"
+                    src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" />
+                <img class="footericons" width="25px" height="25px" src="twitter.png">
+                <img class="footericons" width="25px" height="25px" src="insta.png" alt="instagram">
+                <img class="footericons" width="25px" height="25px" src="youtube.jpg">
+            </div>
+            <br />
+            <div class="last">
+                <p style="color: rgb(17, 17, 17); font-size: 12px; font-weight: bold;">
+                    Copyright © 2020
+                    AntiquesGallery
+                </p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

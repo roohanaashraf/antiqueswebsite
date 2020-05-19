@@ -1,0 +1,83 @@
+body{
+    background-color:rgb(233, 233, 250);
+}
+.brown {
+    color: rgb(206, 164, 101) !important;
+}
+.lightbrown {
+    color: rgba(214, 212, 112, 0.829) !important;
+}
+.active {
+    color: rgb(221, 199, 98) !important;
+    font-weight: bold !important;
+}
+q {
+    font-size: 32px;
+    font-weight: bold;
+}
+.Bold {
+    font-weight: 600;
+}
+.Line {
+    color: brown;
+    font-weight: 400;
+}
+.h1 {
+    font-size: 25px !important;
+}
+.bg-transparent{
+ background-color: brown !important;
+}
+.center {
+    text-align: center !important;
+    font-weight: bold;
+}
+hr{
+    background-color: rgb(34, 32, 32);
+    margin: 1% 12%;
+}
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify !important;
+    font-size: 23px !important;
+    padding: 0% 12%;
+    font-weight: 545 !important;
+}
+address {
+    text-align: justify;
+}
+.footer {
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+}
+
+.footericons {
+    margin: 0.5% 1.3%;
+}
+
+.line {
+    color: rgb(168, 164, 164);
+    font-weight: bold;
+}
+
+.last {
+    background-color: burlywood;
+}
+
+.backtotop {
+    position: relative;
+    top: -10%;
+    float: right;
+}
+
+.ml-5 {
+    margin-left: 43% !important;
+}
+.l {
+    padding-right: 2.5% !important;
+    color: lightblue;
+}
+
+.l:hover {
+    color: burlywood;
+}
